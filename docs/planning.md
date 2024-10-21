@@ -3,7 +3,7 @@
 ## Business Case
 
 ### Problem statement
-TODO: Replace the example text like this with text that describes your project. What is the problem to be addressed?
+We are aiming to build a web-app named Gastrella that allows users to engage by sharing reviews and videos which help both local restaurants improve their visibility and people with different preferences, cultures and diets discover new cuisines through personalized recommendations.
 
 ### Business benefits
 TODO: List high-level benefits that this product will provide.
