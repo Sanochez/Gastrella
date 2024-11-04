@@ -33,4 +33,23 @@ What makes us different from them is that we have an AI chat-bot integrated that
 ## Project Scope
 Our project includes the stages of data analysis and research, design, development and testing. It will cover the main pages and functionality required for user engagement, such as business rating options and feedback forms. But also excludes the maintenance process and updates post-launch.
 
+Our project includes:
+- User accounts
+- Business profiles 
+- User reviews
+- Personalized video recommendations
+- Content creation(?)
+- Chatbot assistant
+- Virtual Customer service
+- Professional nutritionist 
+- Marketing / social media management 
+- Voice recognition 
+- Screen Reader 
+- Feedback forms
+- Platform
+- Profits
+- User interface
+- Data security
+
+
 ![Insert your Context Diagram Here](images/context.png)
