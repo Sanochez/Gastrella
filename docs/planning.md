@@ -15,6 +15,11 @@ We are aiming to build a web-app named Gastrella that allows users to engage by 
 
 ### Options Considered
 TODO: What are some other customer options or leading products that address the same needs?
+Similar leading products are:
+- HappyCow
+- Zomato
+- Zagat
+What makes us different from them is that we have an AI chat-bot integrated that provides allergy alerts, while others focus on collaborating with influencers, or on targeting one specific demography, or on delivery options.
 
 ### Expected Risks
 - Financial risks: Not generating enough revenue
