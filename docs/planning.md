@@ -52,4 +52,4 @@ Our project includes:
 - Data security
 
 
-![Insert your Context Diagram Here](images/context.png)
+![Insert your Context Diagram Here](images/contextdiagram.png)
