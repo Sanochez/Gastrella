@@ -3,11 +3,14 @@
 ## Business Case
 
 ### Problem statement
-We are aiming to build a web-app named Gastrella that allows users to engage by sharing reviews and comments so that even people with a restricted range of food can expand their palate without stepping out of their comfort zone. Our app gives recommendations based on these reviews, the location, and the food hygiene ratings database.
+We are aiming to build a web-app named Gastrella that allows users to engage by sharing reviews and comments so that even people with a restricted range of food can expand their palate without stepping out of their comfort zone. There will be a chatbot assistant that provides suggestions for restaurants using the requirements you submit. It is also able to answer any health-related questions that the user may have. Our app gives recommendations based on these reviews, the location, and the food hygiene ratings database.
+
 ### Business benefits
 - Helps local restaurants improve their visibility.
 - Helps people with different preferences, cultures and diets discover new cuisines through personalized recommendations.
 - People with disabilities may feel more included by creating new dining experiences.
+- The app is unique and targets a wide range of consumers
+- Reduced health risks due to the refinements given by the app. 
 
 
 ### Options Considered
@@ -18,6 +21,7 @@ TODO: What are some other customer options or leading products that address the 
 - Marketing competition: Differentiating our app
 - Data security: Handling user data
 - Lack of development expertise and time
+- Constant updating of data to provide accurate information
 
 
 ## Project Scope
