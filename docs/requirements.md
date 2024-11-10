@@ -3,11 +3,15 @@
 ## User Needs
 
 ### User stories
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
+- As a business owner I want to showcase the menu of my restaurant so that it can reach more people.
+- As a disabled person with food allergies, I want the chatbot to give me personalized recommendations so that I can eat my comfort food outside without having an allergic reaction.
+- As a vegan I want to find a new vegan restaurant so I can eat vegan food.
 
 ### Actors
 TODO: List and describe the actors/users for this product.
+- Business owner
+- Customers
+- Admin
 
 ### Use Cases
 TODO: Describe each use case (at least one per team member).
