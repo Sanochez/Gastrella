@@ -3,7 +3,9 @@
 ## Business Case
 
 ### Problem statement
-We are aiming to build a web-app named Gastrella that allows users to engage by sharing reviews and comments so that even people with a restricted range of food can expand their palate without stepping out of their comfort zone. There will be a chatbot assistant that provides suggestions for restaurants using the requirements you submit. It is also able to answer any health-related questions that the user may have. Our app gives recommendations based on these reviews, the location, and the food hygiene ratings database.
+The issue with a lot of food-locator applications is that it excludes people with health and/or visual impairments etc. We are aiming to build a web-app named Gastrella that allows users to engage by sharing reviews and comments so that even people with a restricted range of food can expand their palate without stepping out of their comfort zone. 
+
+There will be a chatbot assistant that provides suggestions for restaurants using the requirements you submit. It is also able to answer any health-related questions that the user may have. Our app gives recommendations based on these reviews, the location, and the food hygiene ratings database.
 
 ### Business benefits
 - Helps local restaurants improve their visibility.
