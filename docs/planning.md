@@ -16,7 +16,6 @@ There will be a chatbot assistant that provides suggestions for restaurants usin
 
 
 ### Options Considered
-TODO: What are some other customer options or leading products that address the same needs?
 Similar leading products are:
 - HappyCow
 - Zomato
@@ -36,11 +35,8 @@ What makes us different from them is that we have an AI chat-bot integrated that
 Our project includes the stages of data analysis and research, design, development and testing. It will cover the main pages and functionality required for user engagement, such as business rating options and feedback forms. But also excludes the maintenance process and updates post-launch.
 
 Our project includes:
-- User accounts
-- Business profiles 
+- User and business accounts
 - User reviews
-- Personalized video recommendations
-- Content creation(?)
 - Chatbot assistant
 - Virtual Customer service
 - Professional nutritionist 
@@ -48,7 +44,6 @@ Our project includes:
 - Voice recognition 
 - Screen Reader 
 - Feedback forms
-- Platform
 - Profits
 - User interface
 - Data security
