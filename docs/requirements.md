@@ -8,10 +8,9 @@
 - As a vegan I want to find a new vegan restaurant so I can eat vegan food.
 
 ### Actors
-TODO: List and describe the actors/users for this product.
-- Business owner
-- Customers
-- Admin
+- Business owner: They will upload their restaurant's profile and add their details, cuisine type, and menu items.
+- Customers: People contributing ratings, insights, and their preferences; and having natural conversations with the bot.
+- Admin: The admin is in charge of managing the app's functionality, security, and user experience.
 
 ### Use Cases
 TODO: Describe each use case (at least one per team member).
