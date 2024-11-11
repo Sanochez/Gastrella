@@ -33,7 +33,7 @@
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
-TODO: Your Use-Case diagram should include all use-cases.
+Use case 1 by Paula Sanchez
 ![Use case 1](images/uc1.png)
 
 
