@@ -41,6 +41,8 @@ TODO: Your Use-Case diagram should include all use-cases.
 
 ![Insert your Use-Case Diagram Here](images/use-case.png)
 
+![UC1](images/robust diagram.drawio (1).png)
+
 ## Software Requirements Specification
 ### Functional requirements
 TODO: create a list of functional requirements. 
