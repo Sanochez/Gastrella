@@ -22,7 +22,7 @@
 | **Non-functional** | User-friendly interface, data backup, error handling, data protection |
 
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
+| UC2 | Customers browsing | 
 | -------------------------------------- | ------------------- |
 | **Description** | The goal is to explain how the customer engages with the system |
 | **Actors** | Customers, app support team |
