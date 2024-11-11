@@ -24,10 +24,10 @@
 
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
+| **Description** | The goal is to explain how the customer engages with the system |
+| **Actors** | Customers, app support team |
+| **Assumptions** |  Pre-condition: Having an email <br> Post-condition: Publishing reviews and ratings, speaking with bot, viewing restaurant profiles</td></tr>
+| **Steps** | 1. The user creates an account. <br> 2. The user browses for food reccomendations. <br> 3. The user conversates with the AI assistant. <br> 4. The user leaves a review|
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
