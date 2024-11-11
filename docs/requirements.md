@@ -13,10 +13,6 @@
 - App support team: They are in charge of managing the app's functionality, security, and user experience.
 
 ### Use Cases
-TODO: Describe each use case (at least one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
-
 | UC1 | Business account mangement | 
 | -------------------------------------- | ------------------- |
 | **Description** | This use case explains the features involved in managing a restaurant account |
