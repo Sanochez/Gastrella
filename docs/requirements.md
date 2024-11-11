@@ -45,6 +45,7 @@ TODO: create a list of functional requirements.
     e.g. "The system shall ..."
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
+    
 <u>UC1 requirements:</u>
 - FR1: Restaurant owner registration
 - FR2: Restaurant profile management
