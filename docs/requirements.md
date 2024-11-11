@@ -17,6 +17,16 @@ TODO: Describe each use case (at least one per team member).
     Give each use case a unique ID, e.g. UC1, UC2, ...
     Summarise these using the use-case template below.
 
+| UC1 | Business account mangement | 
+| -------------------------------------- | ------------------- |
+| **Description** | This use case explains the features involved in managing a restaurant account |
+| **Actors** | Business owner, admin |
+| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
+| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
+| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
+| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
 | **Description** | TODO: Goal to be achieved by use case and sources for requirement |
