@@ -47,9 +47,9 @@ TODO: create a list of functional requirements.
     Indicate which UC the requirement comes from.
     
 <u>UC1 requirements:</u>
-- FR1: Restaurant owner registration
-- FR2: Restaurant profile management
-- FR3: Customer interaction
+- FR1: The system must allow restaurant owner registration
+- FR2: The system must allow restaurant profile management
+- FR3: The system should allow customer interaction
 - FR4: Interaction metrics
 - FR5: Location and mapping
 - FR6: Content moderation
