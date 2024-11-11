@@ -45,14 +45,14 @@ TODO: create a list of functional requirements.
     e.g. "The system shall ..."
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
-UC1 requirements:
-    FR1: Restaurant owner registration
-    FR2: Restaurant profile management
-    FR3: Customer interaction
-    FR4: Interaction metrics
-    FR5: Location and mapping
-    FR6: Content moderation
-    FR7: Marketing tools
+<u>UC1 requirements:</u>
+    - FR1: Restaurant owner registration
+    - FR2: Restaurant profile management
+    - FR3: Customer interaction
+    - FR4: Interaction metrics
+    - FR5: Location and mapping
+    - FR6: Content moderation
+    - FR7: Marketing tools
 
 
 ### Non-Functional Requirements
