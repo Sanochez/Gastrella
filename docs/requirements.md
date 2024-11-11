@@ -22,13 +22,7 @@ TODO: Describe each use case (at least one per team member).
 | **Description** | This use case explains the features involved in managing a restaurant account |
 | **Actors** | Business owner, admin |
 | **Assumptions** | Pre-condition: Owning a restaurant, having an email <br> Post-condition: Access to account, modification of account</td></tr>
-| **Steps** | 1. The business owner creates an account for their restaurant. 
-2. The owner adds a description with cuisine type, contact information and hours.
-3. The owner adds the menu.
-4. Both the owner and the app support team can respond or monitor customer reviews.
-5. Both the owner and the app support team have access to insights data.
-6. Both the owner and the app support team can remove the account. 
-7. The owner can pay for advertisment. |
+| **Steps** | 1. The business owner creates an account for their restaurant. <br> 2. The owner adds a description with cuisine type, contact information and hours.<br> 3. The owner adds the menu.<br> 4. Both the owner and the app support team can respond or monitor customer reviews.<br> 5. Both the owner and the app support team have access to insights data.<br> 6. Both the owner and the app support team can remove the account. <br> 7. The owner can pay for advertisment. |
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
