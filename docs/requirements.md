@@ -10,7 +10,7 @@
 ### Actors
 - Business owner: They will upload their restaurant's profile and add their details, cuisine type, and menu items.
 - Customers: People contributing ratings, insights, and their preferences; and having natural conversations with the bot.
-- Admin: The admin is in charge of managing the app's functionality, security, and user experience.
+- App support team: They are in charge of managing the app's functionality, security, and user experience.
 
 ### Use Cases
 TODO: Describe each use case (at least one per team member).
@@ -20,9 +20,9 @@ TODO: Describe each use case (at least one per team member).
 | UC1 | Business account mangement | 
 | -------------------------------------- | ------------------- |
 | **Description** | This use case explains the features involved in managing a restaurant account |
-| **Actors** | Business owner, admin |
+| **Actors** | Business owner, app support team |
 | **Assumptions** | Pre-condition: Owning a restaurant, having an email <br> Post-condition: Access to account, modification of account</td></tr>
-| **Steps** | 1. The business owner creates an account for their restaurant. <br> 2. The owner adds a description with cuisine type, contact information and hours.<br> 3. The owner adds the menu.<br> 4. The admin uploads the food hygine ratins and the locates establishment in the map from the database. <br> 5. Both the owner and the app support team can respond or monitor customer reviews.<br> 6. Both the owner and the app support team have access to insights data.<br> 7. Both the owner and the app support team can remove the account. <br> 8. The owner can pay for advertisment. |
+| **Steps** | 1. The business owner creates an account for their restaurant. <br> 2. The owner adds a description with cuisine type, contact information and hours.<br> 3. The owner adds the menu.<br> 4. The app support team uploads the food hygine ratins and the locates establishment in the map from the database. <br> 5. Both the owner and the app support team can respond or monitor customer reviews.<br> 6. Both the owner and the app support team have access to insights data.<br> 7. Both the owner and the app support team can remove the account. <br> 8. The owner can pay for advertisment. |
 | **Non-functional** | User-friendly interface, data backup, error handling, data protection |
 
 
