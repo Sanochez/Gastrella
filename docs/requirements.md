@@ -34,7 +34,7 @@
 
 
 TODO: Your Use-Case diagram should include all use-cases.
-
+![Use case 1](images/uc1.png)
 
 
 
