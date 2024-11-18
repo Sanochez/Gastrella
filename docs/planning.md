@@ -32,11 +32,11 @@ What makes us different from them is that we have an AI chat-bot integrated that
 
 
 ## Project Scope
-- Creating accounts: Enables businesses and customers to register and manage their profiles.
-- Chatbot assistant: Professional nutritionist advice about dietry options, allergy alerts, nutrient breakdowns; and customer services.
-- Customer input: Enabling reviews, ratings and feedback forms services.
-- Database integration: Providing official food hygiene ratings, own database records, integrating map location.
-- Data security: Basic security solutions like secure connections and data anonymization.
+- Enabling businesses and customers to register and manage their profiles.
+- Chatbot assistance with professional nutritionist advice about dietry options, allergy alerts, nutrient breakdowns; and customer services.
+- Enabling reviews, ratings and feedback forms services.
+- Providing official food hygiene ratings, maintaining records and analytics on the server, integrating map location.
+- Offering basic security solutions like secure connections and data anonymization.
 
 
 
