@@ -32,8 +32,8 @@ What makes us different from them is that we have an AI chat-bot integrated that
 
 
 ## Project Scope
-- Creating accounts: 
--- Enables businesses and customers to register and manage their profiles.
+- Creating accounts:
+  - Enables businesses and customers to register and manage their profiles.
 Chatbot assistant: (Professional nutritionist advice, customer services)
 Customer input:(Reviews, ratings, feedback forms)
 Database integration: (Food hygiene ratings, own database, map location)
