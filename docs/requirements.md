@@ -54,6 +54,12 @@ TODO: create a list of functional requirements.
 
 
 ### Non-Functional Requirements
+<u>UC1 requirements:</u>
+- NFR1: User-friendly interface: New users should be able to complete basic tasks within 4 minutes.
+- NFR2: The system must respond within 2 seconds for 85% of user requests.
+- NFR3: The system must support multifactor authentification.
+
+  
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
 Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 
