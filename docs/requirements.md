@@ -37,12 +37,7 @@ Use case 1 by Paula Sanchez
 
 
 ## Software Requirements Specification
-### Functional requirements
-TODO: create a list of functional requirements. 
-    e.g. "The system shall ..."
-    Give each functional requirement a unique ID. e.g. FR1, FR2, ...
-    Indicate which UC the requirement comes from.
-    
+### Functional requirements    
 <u>UC1 requirements:</u>
 - FR1: The system must allow restaurant owner registration
 - FR2: The system must allow restaurant profile management
@@ -60,7 +55,3 @@ TODO: create a list of functional requirements.
 - NFR3: The system must support multifactor authentification.
 
   
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
-
-Indicate which UC the requirement comes from.
