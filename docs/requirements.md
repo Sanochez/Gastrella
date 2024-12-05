@@ -31,13 +31,13 @@
 | **Issues** |1.  Need to regulate customer reviews to ensure its appropriate and unoffensive.<br> 2.  Some customers may be unable to create an account with Gastrella due to Age and/or Location restrictions. |
 
 
-Use case 1 by Paula Sanchez
+Use case 1 by Paula Sanchez (add extensions)
 ![Use case 1](images/uc1.png)
 
 
 
 ## Software Requirements Specification
-### Functional requirements    
+### Functional requirements    (should be about what the system does specifically)
 <u>UC1 requirements:</u>
 - FR1: The system must allow restaurant owner registration
 - FR2: The system must allow restaurant profile management
