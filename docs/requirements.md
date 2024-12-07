@@ -32,7 +32,7 @@
 
 
 Use case 1 by Paula Sanchez (add extensions)
-![Use case 1](images/uc1(2).png)
+![Use case 1](images/uc1.png)
 
 
 
