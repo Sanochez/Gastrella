@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+
+    background-color: rgb(76, 133, 116);
+}
+
+header {
+    color:white;
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    padding: 0  0 10px 10px;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.498);
+    box-shadow: 0px 0 5px rgba(72, 72, 72, 0.689);
+    width: 100%;
+    position: -webkit-sticky; position: fixed;
+    z-index: 2;  
+}
+/* .carter-one-regular {
+    background-color: rgb(104, 169, 151);
+
+
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+*/ 
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ 
+h2 {
+    color:white;
+}
+
+header h2{
+    display: inline-block;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header img {
+    width: 80px;
+    display: inline-block;
+}
+header nav {
+    float: right;
+    margin: 20px 25px 0 0;
+}
+
+nav p{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0; top: 100%;
+    background-color: #7a5ada;
+    z-index: 0;
+}
+
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    border: 0;
+}
+
+article {
+    color: white;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.front {
+    grid-area: front_img;
+    background-image: url(/images/front-img.jpg);
+    border: solid 5px;
+    border-color: #D4AA3A;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    line-height: 400px;
+}
+.front h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Item1 {
+    grid-area: restaurant;
+    margin-left: 75px;
+}
+
+.Item2 {
+    grid-area: restaurant1;
+    margin-right: 75px;
+}
+
+.Item1 , .Item2 {
+    margin-top: 75px;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 47% 6% 47%;
+    grid-template-areas: 
+    'front_img front_img front_img'
+    'restaurant space restaurant1'
+    ;
+}
+
+article section {
+    margin-left: 3%;
+    bottom: 20px;
+    position: absolute;
+}
+
+article section:not(.raiting) {
+    left: 20px;
+}
+
+article section p {display: inline-block;}
+
+.raiting {
+    float: right;
+}
+
+.restaurant_img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 7px 7px 5px rgba(72, 72, 72, 0.689);
+    display: block;
+}
+
+#chatbot-icon {
+    z-index: 2;
+    position: -webkit-sticky; position: fixed;
+    border: 0;
+    border-radius: 100%;
+    padding: 1.5%;
+    background-color: #f4d06e;
+    bottom: 25px;
+    right: 25px;
+}
+
+#message {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.message-container {
+    display: inline-block;
+    background: white;
+    padding: 10px;
+    border-radius: 25px;
+    width: 50%;
+    text-align: center;
+}
+
+.message-container span input {
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    border: none;
+    outline: none;
+}
+
+/* MAP page */
+
+#search {
+    grid-area: sr;
+    text-align: center;
+    align-self: start; /* Aligns the search at the top of the grid area */
+    justify-self: center; /* Centers it horizontally */
+    margin-top: 120px;
+}
+
+.map_frame {
+    grid-area: map;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.foodfinder-grid {
+    position: relative;
+    display: grid;
+    grid-template-areas: 
+    'sr'
+    'map';
+}
