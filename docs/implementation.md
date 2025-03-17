@@ -8,8 +8,33 @@ Some issues that may occur is that some records may be labelled as ‘undefined�
 The configuration data involved are; API configuration, database configuration, ratings configuration, data update and sync configuration. The API configuration receives the restaurant details and the ratings from Bristol Open Data. The database configuration is the storage for the ratings, and the restaurant details. The data can be filtered for a quick search. The ratings configuration is important so it displays each restaurants’ ratings clearly so that users can use it to quickly make their dining choice. The data update and sync configuration ensures that valid, new inspection data is replacing the older data, without manual updates. 
 
 ## Project Structure
-TODO: Provide an outline of the project folder structure and the role of each file within it.
-provide a table listing the number of jslint warnings/reports for each module.
+Docs                            #
+- Images
+- -design.md
+- Implementation.md
+- Planning.md
+- requirements.md
+- Testing.md
+Farihinimages
+Farihinstyle
+- Manageaccount.css
+- reviews.css
+Paulaimages
+Scripts
+- Gastrella.js
+Style
+-style.css
+Chatbot.html
+Home.html
+Manage account.html
+Map.html
+Readme.md
+- Planning
+- Requirements
+- Design
+- Implementation
+- Testing
+reviews.html
 
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
