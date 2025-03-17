@@ -9,7 +9,7 @@ The configuration data involved are; API configuration, database configuration, 
 
 ## Project Structure
 An outline of the project folder structure and the role of each file within it.
-
+![Insert your project folder structure here](images/folders.png)
 
 
 ## Software Architecture
