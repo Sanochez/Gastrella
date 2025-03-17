@@ -12,6 +12,7 @@ An outline of the project folder structure and the role of each file within it.
 ![Insert your project folder structure here](images/folders.png)
 
 A table listing the number of jslint warnings/reports for each module.
+## CAN'T DO THIS UNTIL JAVASCRIPT IS ADDED
 
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
