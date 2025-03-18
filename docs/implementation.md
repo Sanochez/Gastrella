@@ -15,7 +15,9 @@ A table listing the number of jslint warnings/reports for each module.
 ## CAN'T DO THIS UNTIL JAVASCRIPT IS ADDED
 
 ## Software Architecture
-TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
+The major components of our architecture are Gastrella; the actual web-app itself, and BristolOpenData which is the platform we’re using to access the data we require. 
+
+The architectural styles being used include a colour scheme of pastel green, orange and white. Hygiene is the focus so these represent cleanliness. We used a font of ‘Carter One’, so that the reviews are easy to read. The reviews are measured with the number of stars. This is a quick visual indicator of the highest scoring restaurants. 
 
 ![Insert your component Diagram here](images/componentdiagram.png)
 
