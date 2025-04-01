@@ -13,7 +13,7 @@
 - App support team: They are in charge of managing the app's functionality, security, and user experience.
 
 ### Use Cases
-| UC1 | Business account mangement | 
+| UC1 | Business account mangement(Paula Sanchez) | 
 | -------------------------------------- | ------------------- |
 | **Description** | This use case explains the features involved in managing a restaurant account |
 | **Actors** | Business owner, app support team |
