@@ -2,10 +2,10 @@
 
 ## User Interface design
 Home page wireframe(Paula):
-Page that welcomes users and shows them highest rated restaurants in Bristol. The restaurants link to it's own review page which is the next wireframe.
+Page that welcomes users and shows them highest rated restaurants in Bristol. The restaurants link to it's own review page which is the next wireframe. The icon at the right bottom corner links to the chatbot page. The food finder at the navigation bar links to the foodfinder page. Finally, the icon at the nav bar at the top right links to the manage account page.
 ![Insert your Wireframes Here](images/homewireframe.png)
 Review page wireframe(Farihin):
-Page that let's users read and post reviews for the restaurant.
+Page that let's users read and post reviews for the restaurant. 
 ![Insert your Wireframes Here](images/reviewpage.png)
 Chatbot page wireframe(Paula): 
 Assists users through conversations.
