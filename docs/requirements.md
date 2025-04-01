@@ -22,7 +22,7 @@
 | **Non-functional** | User-friendly interface, data backup, error handling, data protection |
 
 
-| UC2 | Customer Account | 
+| UC2 | Customer Account(Farihin Khan) | 
 | -------------------------------------- | ------------------- |
 | **Description** | This Use Case explains the features involved in having a Gastrella account. |
 | **Actors** | Customers with food-related or hygiene quieries inclusing those with health deficiencies. |
