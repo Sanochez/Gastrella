@@ -31,7 +31,7 @@
 | **Issues** |1.  Need to regulate customer reviews to ensure its appropriate and unoffensive.<br> 2.  Some customers may be unable to create an account with Gastrella due to Age and/or Location restrictions. |
 
 
-Use case 1 by Paula Sanchez "\n"
+Use case 1 by Paula Sanchez "/n" <br>
 ![Use case 1](images/uc1.png)
 
 
