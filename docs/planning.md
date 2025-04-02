@@ -41,7 +41,7 @@ What makes us different from them is that we have an AI chat-bot integrated that
 
 ## Context diagram
 ![Insert your Context Diagram Here](images/contextdiagram.png) <br>
-This diagram represents how the web-app interacts with users and external services. One of the interactions is how the web-app pulls food safety data from the Food Hygiene Ratings Database to display restaurant raitings. This context diagram also comprises the actors: the business owner, customers and the admin/app support team. 
+This diagram represents how the web-app interacts with users and external services. One of the interactions is how the web-app pulls food safety data from the Food Hygiene Ratings Database to display restaurant ratings. This context diagram also comprises the actors: the business owner, customers and the admin/app support team. 
 -	The restaurant owner can manage their restaurant details and view reviews. 
 -	The customers search for restaurants, read and write reviews.
 -	The admin moderates content and manages users. <br>
