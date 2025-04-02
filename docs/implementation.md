@@ -28,4 +28,28 @@ TODO: Document each query to Bristol Open Data
 TODO: Repeat as necessary
 
 # User guide
-TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
+This guide will help you navigate the website.
+1. Home
+![Home screenshot 1](images/home_ss1.png)
+Search and explore featured restaurants.
+![Home screenshot 2](images/home_ss2.png)
+2. Chatbot: Navigate to the chatbot page by clicking the icon at the bottom right corner in any page.
+![Chatbot screenshot 1](images/chatbot_ss1.png)
+Type queries like:
+- "how are you?”
+- "can you help me?"
+- "what is your name?"
+- "what are the benefits of a Mediterranean diet?"
+- "what are some high protein Indian meals?"
+- "how can I write a review?"
+- "how do I search for a restaurant?"
+- "how can I look for restaurants near me?"
+![Chatbot screenshot 2](images/chatbot_ss2.png)
+3. Reviews: Open a restaurant's profile.
+![Reviews screenshot 1](images/reviews_ss1.png)
+Scroll through the reviews section.
+![Reviews screenshot 2](images/reviews_ss2.png)
+Fill in the review form and add a rating.
+![Reviews screenshot 3](images/reviews_ss3.png)
+Finally submit it.
+![Reviews screenshot 4](images/reviews_ss4.png)
