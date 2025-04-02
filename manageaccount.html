@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="manageaccount.css">
-<link rel="stylesheet" href="reviews.css">
+    <link rel="stylesheet" href="/style/style.css">
+<link rel="stylesheet" href="/style/manageaccount.css">
+<link rel="stylesheet" href="/style/reviews.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <title>Manage Account Page</title>
 </head>
 <body>
+    <header class="Heading">
+        <img src="images/logotype.png" alt="Gastrella logotype"><a href="/home.html"><h2>  GASTRELLA </h2></a>
+        <nav><a href="/map.html"><p> Food finder </p></a>
+        <p> Account </p> </nav>
+    </header>
 <div class="container">
-<header>
+
+<!-- <header>
     <div class="container2">
-    <a href = "home.html"> <img src="/docs/images/gast-logo2.png" height=150 alt="gastrella logo" class="gastrella-logo"></a>
+        <img src="/docs/images/gast-logo2.png" height=150 alt="gastrella logo" class="gastrella-logo">
     <div class="w3-bar w3-white">
         <a href="home.html">
         <button class="w3-bar-item w3-button">Home</button>
@@ -21,7 +29,7 @@
         <a href="reviews.html">
         <button class="w3-bar-item w3-button">Reviews</button>
         </a>
-        <a href="map.html">
+        <a href="foodfinder.html">
         <button class="w3-bar-item w3-button">Food Finder</button>
         </a>
         <a href="manageaccount.html">
@@ -29,7 +37,7 @@
         </a>
     </div>
     </div>
-</header>
+</header> -->
 <div class="header">
     <h1><u>My Account</u></h1>
     <br>
@@ -37,60 +45,64 @@
     </div>
     <br>
     <div class="form">
+        <form id ="account_form">
         <div class="input-group">
-            <label>Account Owner</label>
-            <input type="text" >
+            <label>* Account Owner</label>
+            <input type="text" name="name" placeholder="Your name..." required>
         </div>
         <div class="input-group">
             <label>Phone Number</label>
-            <input type="text" >
+            <input type="text" name="phone" placeholder="Your number...">
         </div>
         <div class="input-group">
             <label>Address</label>
-            <input type="text" >
+            <input type="text" name="adress" placeholder="Your address...">
         </div>
         <div class="input-group">
-            <label>Email Address</label>
-            <input type="email" >
+            <label>* Email Address</label>
+            <input type="email" name="email" placeholder="Your email..." required>
         </div>
         <div class="input-group">
             <label>City</label>
-            <input type="text" >
+            <input type="text" name="city" place="City">
         </div>
         <div class="input-group">
             <label>Postal Code</label>
-            <input type="text"  >
+            <input type="text" name="postcode" placeholder="Postcode">
         </div>
     </div>
     <br>
     <div class="buttons">
-        <button class="cancel">Cancel</button>
-        <button class="save">Save</button>
+        <button class="cancel" onclick="javascript:window.history.back()">Cancel</button>
+        <button class="save" onclick="submitFunction()" value="Submit">Save</button>
     </div>
+</form>
 </section>
 </div>
-<a href="chatbot.html"><button id="chatbot-icon"><i class="material-icons" 
-    style="color:rgb(12, 136, 138);">question_answer</i></button></a>
+            <!-- Icon shown at the bottom corner of the pages that directs to the chatbot -->
+            <a href="/chatbot.html"><button id="chatbot-icon"><i class="material-icons" style="color:rgb(12, 136, 138);">question_answer</i></button></a>
+
 <footer>
     <div class="image-container">
         <a href="https://tiktok.com">
-        <img src="/docs/images/tiktok.png" width ="60" height="60" alt="Tiktok">
+        <img src="/images/tiktok.png" width ="60" height="60" alt="Tiktok">
         </a>
         <a href="https://facebook.com">
-        <img src="/docs/images/facebook.png" width="60" height="60" alt="FaceBook">
+        <img src="/images/facebook.png" width="60" height="60" alt="FaceBook">
         </a>
         <a href="https://instagram.com">
-        <img src="/docs/images/instagram.png" width="60" height="60" alt="Instagram">
+        <img src="/images/instagram.png" width="60" height="60" alt="Instagram">
         </a>
         <a href="https://twitter.com">
-        <img src="/docs/images/twitter.png" width="60" height="60" alt="Twitter">
+        <img src="/images/twitter.png" width="60" height="60" alt="Twitter">
         </a>
         <a href="https://youtube.com">
-        <img src="/docs/images/youtube.png" width="60" height="60" alt="YouTube">
+        <img src="/images/youtube.png" width="60" height="60" alt="YouTube">
         </a>
     </div>
 </footer>
 
-  
+<script src="/script/farihinscript.js" defer></script>
 </body>
 </html>
+
