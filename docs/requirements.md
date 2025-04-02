@@ -32,7 +32,10 @@
 
 
 Use case 1 by Paula Sanchez: <br>
-![Use case 1](images/uc1.png)
+![Use case 1](images/uc1.png) <br>
+
+Use case 2 by Farihin Khan: <br>
+![Use case 2](images/usecase2.png)
 
 
 
