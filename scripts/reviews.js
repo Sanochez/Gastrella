@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         star.addEventListener("click", () => {
             selectedRating = index + 1;  // Set the rating to the clicked star index + 1
             document.getElementById("rating").value = selectedRating;  // Update the hidden input
-            resetStars();  // Reset all stars to gray
+            resetStars();  // Reset all stars to grey
             for (let i = 0; i < selectedRating; i++) {
                 stars[i].style.color = "gold";  // Highlight the selected stars
             }
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     function resetStars() {
         stars.forEach(star => {
-            star.style.color = "gray";  
+            star.style.color = "grey";  
         });
     }
 
