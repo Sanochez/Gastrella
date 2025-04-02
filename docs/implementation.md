@@ -58,3 +58,4 @@ Finally submit it.
 Then if you click on any of the markers it will give you information about that restaurant.
 ![Food finder screenshot 2](images/foodfinder_ss2.png)
 5. <b>Manage account:</b>
+![Manage account screenshot 1](image/manageaccount_ss1.png)
