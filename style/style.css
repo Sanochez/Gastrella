@@ -42,6 +42,7 @@ h2 {
 
 header h2{
     display: inline-block;
+    font-family: "Carter One", system-ui;
 }
 
 .anton-regular {
@@ -97,9 +98,15 @@ article {
 .front h2 {
     color: white;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Carter One", system-ui;
 }
 
+.intro{
+    grid-area: in;
+    margin: 50px 0 0 75px;
+    color: white;
+    font-family: "Carter One", system-ui;
+}
 .Item1 {
     grid-area: restaurant;
     margin-left: 75px;
@@ -110,17 +117,50 @@ article {
     margin-right: 75px;
 }
 
-.Item1 , .Item2 {
-    margin-top: 75px;
+.Item3 {
+    grid-area: restaurant3;
+    margin-left: 75px;
 }
+
+.Item4 {
+    grid-area: restaurant4;
+    margin-right: 75px;
+}
+
+.Item1 , .Item2 , .Item3 , .Item4 {
+    margin-top: 25px;
+    margin-bottom: 50px;   
+}
+
 
 .grid_container {
     display: grid;
     grid-template-columns: 47% 6% 47%;
     grid-template-areas: 
     'front_img front_img front_img'
+    'in in in'
     'restaurant space restaurant1'
+    'restaurant3 space restaurant4'
     ;
+}
+
+/* adjusting the section with the highest rated restaurants to tablet and smaller devices screens */
+@media screen and (max-width:602px) {
+    .Item1 , .Item2 , .Item3 , .Item4 {
+        margin: 50px;
+    }
+    
+    .grid_container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        'front_img'
+        'in'
+        'restaurant'
+        'restaurant1'
+        'restaurant3'
+        'restaurant4'
+    }
 }
 
 article section {
@@ -141,10 +181,13 @@ article section p {display: inline-block;}
 
 .restaurant_img {
     width: 100%;
+    height: 300px;
     border-radius: 15px;
     box-shadow: 7px 7px 5px rgba(72, 72, 72, 0.689);
     display: block;
 }
+
+/* CHATBOT page*/
 
 #chatbot-icon {
     z-index: 2;
@@ -168,19 +211,35 @@ article section p {display: inline-block;}
 
 .message-container {
     display: inline-block;
-    background: white;
+    background-color: rgba(255, 255, 255, 0.498);
+    box-shadow: 2px 2px 5px rgba(72, 72, 72, 0.573);
     padding: 10px;
     border-radius: 25px;
     width: 50%;
     text-align: center;
 }
 
-.message-container span input {
-    display: inline-block;
-    width: 80%;
-    text-align: left;
-    border: none;
-    outline: none;
+#chat-box {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#user-input {
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.249);
+    padding: 5px;
+    border-radius: 7px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.message-container button {
+    border: 0;
+    background-color: rgb(38, 103, 85);
+    padding: 5px;
+    color: white;
+    font-family: "Carter One", system-ui;
+    border-radius: 7px;
 }
 
 /* MAP page */
@@ -200,10 +259,38 @@ article section p {display: inline-block;}
     margin-top: 20px;
 }
 
+#find_restaurants {
+    grid-area: find;
+    width: 30%;
+    margin: auto;
+    border: 0;
+    background-color: rgb(221, 188, 66);
+    padding: 5px;
+    color: white;
+    font-family: "Carter One", system-ui;
+    border-radius: 7px;
+}
+
 .foodfinder-grid {
     position: relative;
     display: grid;
     grid-template-areas: 
     'sr'
-    'map';
+    'map'
+    'find';
+}
+
+.foodfinder-grid p {
+    text-align:center;
+    color: white;
+}
+
+/* -----------------------  FARIHIN'S CODE  ---------------------------*/
+.image-container {
+    text-align: center; 
+    margin-top: 85px;
+}
+
+.image-container img { 
+    margin: 5px; 
 }
