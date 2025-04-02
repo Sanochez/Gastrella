@@ -1,5 +1,61 @@
 // HOME and REVIEWS page
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", async function () {
+    const params = new URLSearchParams(window.location.search);
+    const restaurantName = params.get("name"); // Get name from URL
+
+    try {
+        // Fetch data from API
+        const response = await fetch("https://maps2.bristol.gov.uk/server2/rest/services/ext/food/MapServer/0/query?where=1%3D1&outFields=BUSINESS_NAME,ADDRESS,RATING&outSR=4326&f=json");
+        const data = await response.json();
+
+        console.log("API Response Data:", data); // Debugging log
+
+        // Find the restaurant by name if on the Reviews page
+        const restaurant = data.features.find(feature =>
+            feature.attributes.BUSINESS_NAME.toLowerCase().includes(restaurantName ? restaurantName.toLowerCase() : "")
+        );
+
+        if (!restaurant) {
+            console.error("Restaurant not found in API.");
+            return;
+        }
+
+        // Extract attributes
+        const { BUSINESS_NAME, ADDRESS, RATING, BUSINESS_TYPE } = restaurant.attributes;
+
+        console.log("Restaurant Rating:", RATING);
+
+        // Handle missing values
+        const stars = RATING ? getStars(RATING) : "No rating available";
+
+        console.log("Converted Stars:", stars);
+
+        // Update restaurant details
+        if (restaurantName) {
+            // This is for the Reviews page
+            document.getElementById("restaurant-name").innerText = BUSINESS_NAME;
+            document.getElementById("restaurant-stars").innerText = stars; // Update stars
+            document.getElementById("restaurant-address").innerText = `📍 Address: ${ADDRESS}`;
+        } else {
+            // This is for the Home page (no query param, random restaurant)
+            document.getElementById("restaurant-name").innerText = BUSINESS_NAME;
+            document.getElementById("restaurant-address").innerText = `📍 Address: ${ADDRESS}`;
+        }
+
+    } catch (error) {
+        console.error("Error fetching restaurant data:", error);
+    }
+});
+
+// Function to convert numerical rating to stars
+function getStars(rating) {
+    if (!rating || rating < 1) return "★☆☆☆☆"; // Default 1 star if rating is missing or invalid
+    const roundedRating = Math.round(rating); // Round to nearest whole number
+    return "★".repeat(roundedRating) + "☆".repeat(5 - roundedRating); // Create star string
+}
+
+
+/* document.addEventListener("DOMContentLoaded", function() {
     document.addEventListener("DOMContentLoaded", async function () {
         const params = new URLSearchParams(window.location.search);
         const restaurantName = params.get("name"); // Get name from URL
@@ -11,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
         try {
             // Fetch data from API
-            const response = await fetch("https://maps2.bristol.gov.uk/server2/rest/services/ext/food/MapServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json");
+            const response = await fetch("https://maps2.bristol.gov.uk/server2/rest/services/ext/food/MapServer/0/query?where=1%3D1&outFields=BUSINESS_NAME,ADDRESS,RATING,BUSINESS_TYPE&outSR=4326&f=json");
             const data = await response.json();
     
             // Find the restaurant by name (adjust based on actual API response)
@@ -65,65 +121,51 @@ document.addEventListener("DOMContentLoaded", function() {
         // Update Restaurant Name
         document.querySelector(".rest-name h2").innerText = restaurant.name;
 
-        // Update Image
-        document.querySelector(".rest-name img").src = restaurant.image;
+    }
+});
+*/
+// MAP(foodfinder) page script
+// Request user geolocation and redirect with lat, lon
+function getLocation(page) {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            function(loc) { // permission granted
+                const lat = loc.coords.latitude;
+                const lon = loc.coords.longitude;
+                location.href = `${page}?lat=${lat}&lon=${lon}&zoom=14`;
+            },
+            function() { // permission denied
+                // Default location (Central Bristol)
+                location.href = `${page}?lat=51.454514&lon=-2.587910&zoom=14`;
+            }
+        );
+    } else { // Geolocation not supported
+        alert("Geolocation is not supported by this browser.");
+        location.href = `${page}?lat=51.454514&lon=-2.587910&zoom=14`;
+    }
+}
 
-        // Populate Reviews
-        const reviewsContainer = document.querySelector(".reviews-grid");
-        reviewsContainer.innerHTML = ""; // Clear existing reviews
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to get URL parameters
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+    }
 
-        restaurant.reviews.forEach(review => {
-            const reviewHTML = `
-                <div class="review-card">
-                    <div class="review-header">
-                        <img src="/docs/images/profilepicture.png" alt="Avatar" class="avatar">
-                        <div class="reviewer-info">
-                            <h3>${review.name}</h3>
-                        </div>
-                    </div>
-                    <div class="rating">
-                        <span class="stars">${review.rating}</span>
-                    </div>
-                    <div class="review-text">
-                        "${review.comment}"
-                    </div>
-                </div>
-            `;
-            reviewsContainer.innerHTML += reviewHTML;
-        });
+    const lat = getQueryParam("lat") || 51.454514;  // Default: Bristol
+    const lon = getQueryParam("lon") || -2.587910;
+    const zoom = getQueryParam("zoom") || 14;  // Default zoom level
+
+    // Use correct Open Data Bristol Feature Layer
+    const mapURL = `https://www.arcgis.com/apps/mapviewer/index.html?panel=gallery&layers=7d0994dded2348d5aff6d419b0c76bb9&center=${lon},${lat}&level=${zoom}`;
+
+    // Update the map iframe
+    const mapFrame = document.getElementById("mapFrame");
+    if (mapFrame) {
+        mapFrame.src = mapURL;
     }
 });
 
-// MAP(foodfinder) page script
-function outputTable(json) {
-    let element = document.getElementById("results");
-    let features = json.features;
-    for (i=0; i<features.length; i++) {
-      tr = document.createElement('tr');
-      let a = features[i].attributes;
-      let g = features[i].geometry;
-      let td = document.createElement('td');
-      td.innerHTML = a.NAME;
-      tr.appendChild(td);
-      td = document.createElement('td');
-      td.innerHTML = a.TYPE;
-      tr.appendChild(td);
-      element.appendChild(tr);
-    }
-  }
-
-  function search(string) {
-    let urlEncoded = encodeURIComponent(string);
-    url = `https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_transport/MapServer/28/query?where=&text=${urlEncoded}&objectIds=&time=&timeRelation=esriTimeRelationOverlaps&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&distance=&units=esriSRUnit_Foot&relationParam=&outFields=*&returnGeometry=true&returnTrueCurves=false&maxAllowableOffset=&geometryPrecision=&outSR=4326&havingClause=&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&historicMoment=&returnDistinctValues=false&resultOffset=&resultRecordCount=&returnExtentOnly=false&sqlFormat=none&datumTransformation=&parameterValues=&rangeValues=&quantizationParameters=&featureEncoding=esriDefault&f=pjson`;
-    fetch(url, { method: 'GET', headers: { 'Accept': 'application/json' }})
-    .then (response => response.json())
-    .then(outputTable);
-  }
-
-
-  var urlParams = new URLSearchParams(location.search);
-  var searchterm = urlParams.get('searchterm');
-  search(searchterm);
 
 
 // https://maps2.bristol.gov.uk/server2/rest/services/ext/food/MapServer/0/query?where=1%3D1&outFields=BUSINESS_NAME,ADDRESS,BUSINESS_TYPE,RATING,RATING_DATE,POSTCODE&outSR=4326&f=json
@@ -177,3 +219,4 @@ function getBotResponse(input) {
 
     return responses[lowerInput] || "Sorry, I don't understand.";
 }
+
