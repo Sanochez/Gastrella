@@ -40,7 +40,7 @@ Use case 2 by Farihin Khan: <br>
 
 
 ## Software Requirements Specification
-### Functional requirements    (should be about what the system does specifically)
+### Functional requirements    
 <u>UC1 requirements:</u>
 - FR1: The system must allow restaurant owner registration
 - FR2: The system must allow restaurant profile management
