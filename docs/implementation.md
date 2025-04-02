@@ -54,4 +54,5 @@ Fill in the review form and add a rating.
 Finally submit it.
 ![Reviews screenshot 4](images/reviews_ss4.png)
 4. <b>Foodfinder:</b>
+![Food finder screenshot](images/foodfinder_ss1.png)
 5. <b>Manage account:</b>
