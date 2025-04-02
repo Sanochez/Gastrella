@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Gastrella</title>
+        <!-- Links containing: icon logo in title bar, css stylesheet, and fonts used -->
         <link rel="icon"  type="image/x-icon" href="/images/logotype.png">
         <link rel="stylesheet" href="./style/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,16 +11,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <!-- Header with a link to the home page and navigation bar that contains the food finder and account pages -->
         <header class="Heading">
             <img src="images/logotype.png" alt="Gastrella logotype"><a href="/home.html"><h2>  GASTRELLA </h2></a>
             <nav><a href="/map.html"><p> Food finder </p></a>
-            <p> Account </p> </nav>
+            <a href="/manageaccount.html"><p> Account </p> </a></nav>
         </header>
 
+        <!-- Section where all the messages are goint to be in -->
         <section id="message">
+            <!-- user and chatbot interactions displayed -->
             <div class="message-container">
-                <span><input type="text" placeholder="Message..."></span><button>send</button>
+                <!-- chatbot responses -->
+                <div id="chat-box"></div>
+                <!-- place where the user is going to write -->
+                <input type="text" id="user-input" placeholder="Message...">
+                <button onclick="sendMessage()">send</button>
             </div>
         </section>
+
+        <script src="/script/paulascript.js"></script>
     </body>
 </html>
