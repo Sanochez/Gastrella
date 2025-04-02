@@ -50,11 +50,25 @@ Use case 2 by Farihin Khan: <br>
 - FR6: Content moderation
 - FR7: Marketing tools
 
+<u>UC2 requirements:</u>
+- FR1: The system should allow customers to create an account.
+- FR2: The system should allow customers to browse through potential food options.
+- FR3: The system should allow users to browse, write and upload reviews for restaurants. 
+- FR4: The system should allow users to ask health-related queries to a chatbot.
+- FR5: The system should allow users to manage their account, changing any personal information if necessary.
+
 
 ### Non-Functional Requirements
 <u>UC1 requirements:</u>
 - NFR1: User-friendly interface: New users should be able to complete basic tasks within 4 minutes.
 - NFR2: The system must respond within 2 seconds for 85% of user requests.
 - NFR3: The system must support multifactor authentification.
+
+<u>UC2 requirements:</u>
+- NFR1: The chatbot should provide helpful responses to the users’ queries.
+- NFR2: The chat bot response time should be within 3 seconds.
+- NFR3: The system should process and display multiple users’ reviews when submitted successfully.
+- NFR4: The system should perform automated back ups.
+- NFR5: The system should use two-factor authentication for login security.
 
   
