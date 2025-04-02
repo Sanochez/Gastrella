@@ -12,7 +12,7 @@ An outline of the project folder structure and the role of each file within it.
 ![Insert your project folder structure here](images/folders.png)
 
 A table listing the number of jslint warnings/reports for each module.
-![Insert your jslint warnings table here](images/jslintwarnings.png)
+![Insert your jslint warnings table here](images/jslintwarningss.png)
 
 ## Software Architecture
 The major components of our architecture are Gastrella; the actual web-app itself, and BristolOpenData which is the platform we’re using to access the data we require. 
