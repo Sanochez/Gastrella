@@ -54,5 +54,7 @@ Fill in the review form and add a rating.
 Finally submit it.
 ![Reviews screenshot 4](images/reviews_ss4.png)
 4. <b>Foodfinder:</b> Click on foodfinder located in the navigation bar to access the next page. To access to restaurants near you click on Find Restaurants Near Me, then it will ask you for permission to access your location. 
-![Food finder screenshot](images/foodfinder_ss1.png)
+![Food finder screenshot 1](images/foodfinder_ss1.png)
+Then if you click on any of the markers it will give you information about that restaurant.
+![Food finder screenshot 2](images/foodfinder_ss2.png)
 5. <b>Manage account:</b>
