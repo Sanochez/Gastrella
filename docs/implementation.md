@@ -29,11 +29,11 @@ TODO: Repeat as necessary
 
 # User guide
 This guide will help you navigate the website.
-1. Home
+1. <b>Home</b>
 ![Home screenshot 1](images/home_ss1.png)
 Search and explore featured restaurants.
 ![Home screenshot 2](images/home_ss2.png)
-2. Chatbot: Navigate to the chatbot page by clicking the icon at the bottom right corner in any page.
+2. <b>Chatbot:</b> Navigate to the chatbot page by clicking the icon at the bottom right corner in any page.
 ![Chatbot screenshot 1](images/chatbot_ss1.png)
 Type queries like:
 - "how are you?”
@@ -45,7 +45,7 @@ Type queries like:
 - "how do I search for a restaurant?"
 - "how can I look for restaurants near me?"
 ![Chatbot screenshot 2](images/chatbot_ss2.png)
-3. Reviews: Open a restaurant's profile.
+3. <b>Reviews:</b> Open a restaurant's profile.
 ![Reviews screenshot 1](images/reviews_ss1.png)
 Scroll through the reviews section.
 ![Reviews screenshot 2](images/reviews_ss2.png)
