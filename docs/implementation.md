@@ -22,10 +22,12 @@ The architectural styles being used include a colour scheme of pastel green, ora
 ![Insert your component Diagram here](images/componentdiagram.png)
 
 ## Bristol Open Data API
-TODO: Document each query to Bristol Open Data
-
-![UML Class diagrams representing JSON query results](images/class1.png)
-TODO: Repeat as necessary
+UML by Paula: Query used in the index used to fetch the name, rating and business type. The top level represents the entire JSON response.
+- The fields represent the properties
+- The spatial reference defines coordinate system information
+- Features contain attributes and have a relationship with geometry
+Query URL: https://maps2.bristol.gov.uk/server2/rest/services/ext/food/MapServer/0/query?where=1%3D1&outFields=BUSINESS_NAME,RATING,BUSINESS_TYPE&outSR=4326&f=json
+![UML Class diagrams representing JSON query results](images/js_uml.png)
 
 # User guide
 This guide will help you navigate the website.
