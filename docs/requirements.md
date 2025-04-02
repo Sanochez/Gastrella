@@ -25,7 +25,7 @@
 | UC2 | Customer Account(Farihin Khan) | 
 | -------------------------------------- | ------------------- |
 | **Description** | This Use Case explains the features involved in having a Gastrella account. |
-| **Actors** | Customers with food-related or hygiene quieries inclusing those with health deficiencies. |
+| **Actors** | Customers with food-related or hygiene quieries including those with health deficiencies. |
 | **Assumptions** | Pre-condition: Users' information including name, email address, health conditions (if any), phone number. Agreement to the terms and conditions of the app.<br> Post-condition: Access to; the Chatbot, account information, and viewing/writing reviews.
 | **Steps** | 1. The user creates an account on Gastrella using an email address and further authenticating it with their phone number. <br> 2. The user browses for food options based on reviews, hygiene ratings, customer ratings, recommended, etc.<br> 3. The user can converse with the AI assistant specialised in answering food health-related questions. <br> 4. The user can leave a review and fill in feedback form if the app was satisfactory. |
 | **Issues** |1.  Need to regulate customer reviews to ensure its appropriate and unoffensive.<br> 2.  Some customers may be unable to create an account with Gastrella due to Age and/or Location restrictions. |
