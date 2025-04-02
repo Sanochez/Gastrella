@@ -59,5 +59,7 @@ Then if you click on any of the markers it will give you information about that 
 ![Food finder screenshot 2](images/foodfinder_ss2.png)
 5. <b>Manage account:</b> Click on account located at the right in the navigation map.
 ![Manage account screenshot 1](images/manageaccount_ss1.png)
+Fill in the form with your details.
 ![Manage account screenshot 2](images/manageaccount_ss2.png)
+Then click save and a message will pop up indicating that you signed up successfully(it is not saving the details anywhere). And if you click cancel it will take you back to the previous page.
 ![Manage account screenshot 3](images/manageaccount_ss3.png)
