@@ -89,7 +89,7 @@ This shows that the customer can browse through food options.
 # Test Case ID: UC2 FR3
 Description: The system should allow users to browse, write and upload reviews for restaurants.<br>
 Prerequisites: Accessible API, connection to Database, Error messages <br>
-Test Data: 
+Test Data: <br>
 (1)
 
                 <a href="/reviews.html?name=808 CAFE BAR LTD"><img src="images/restaurant1.jpg" class="restaurant_img" alt="808 CAFE BAR LTD"></a>
