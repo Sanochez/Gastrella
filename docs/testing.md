@@ -3,8 +3,8 @@
 ## Test Plan
 TODO: Describe any manual and automated (unit) tests. Uniquely identify each test case. Include prerequisites and test data.
 
-## Manual Tests
-# Test Case ID: UC1 FR1 
+# Manual Tests
+### Test Case ID: UC1 FR1 
 Description: The system must allow restaurant owner registration (basic profile creation). <br>
 Prerequisites: User's email and phone number, user profile storage<br>
 Test Data: 
@@ -20,7 +20,7 @@ Test Data:
                 <br>
 This shows that the restaurant owner can create an account by filling in the required information.
 
-# Test Case ID: UC1 FR2
+### Test Case ID: UC1 FR2
 Description: The system must allow restaurant profile management(changing details or removing account).<br>
 Prerequisites: user profile storage<br>
 Test Data: 
@@ -36,7 +36,7 @@ Test Data:
                 <br>
 This shows that the restaurant owner can change some details by filling in the required information.
 
-# Test Case ID: UC1 FR3 
+### Test Case ID: UC1 FR3 
 Description: The system should have interaction metrics(customer engagement tracking like viewing reviews).<br>
 Prerequisites: Accessible API, connection to Database, Error messages <br>
 Test Data: 
@@ -56,7 +56,7 @@ Test Data:
         <br>
 This shows that the user can view reviews by clicking on the restaurant's image, which uses the API to fetch the data.
 
-# Test Case ID: UC2 FR1 
+### Test Case ID: UC2 FR1 
 Description: The system should allow customers to create an account.<br>
 Prerequisites: User's email and phone number, user profile storage <br>
 Test Data: 
@@ -72,7 +72,7 @@ Test Data:
                 <br>
 This shows that the customer can create an account by filling in the required information.
 
-# Test Case ID: UC2 FR2
+### Test Case ID: UC2 FR2
 Description: The system should allow customers to browse through potential food options.<br>
 Prerequisites: Accessible API <br>
 Test Data: 
@@ -86,7 +86,7 @@ Test Data:
 <br>
 This shows that the customer can browse through food options.
 
-# Test Case ID: UC2 FR3
+### Test Case ID: UC2 FR3
 Description: The system should allow users to browse, write and upload reviews for restaurants.<br>
 Prerequisites: Accessible API, connection to Database, Error messages <br>
 Test Data: <br>
@@ -105,7 +105,7 @@ Test Data: <br>
               
 This shows that the customer can browse (1), write (2), and upload their reviews, showing a response message when uploaded successfully (3). 
 
-# Test Case ID: UC2 FR4 
+### Test Case ID: UC2 FR4 
 Description: The system should allow users to ask health-related queries to a chatbot.<br>
 Prerequisites: correct input formatting, response display system, Error messages <br>
 Test Data: 
@@ -123,7 +123,7 @@ Test Data:
         <br>
 This shows that users can ask their questions, and get a generated response from the chatbot.
 
-# Test Case ID: UC2 FR5 
+### Test Case ID: UC2 FR5 
 Description: The system should allow users to manage their account, changing any personal information if necessary.<br>
 Prerequisites: user profile storage <br>
 Test Data: 
