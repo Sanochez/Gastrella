@@ -36,7 +36,6 @@ What makes us different from them is that we have an AI chat-bot integrated that
 - Chatbot assistance with professional nutritionist advice about dietry options, allergy alerts, nutrient breakdowns; and customer services.
 - Enabling reviews, ratings and feedback forms services.
 - Providing official food hygiene ratings, maintaining records and analytics on the server, integrating map location.
-- Offering basic security solutions like secure connections and data anonymization.
 
 
 ## Context diagram
