@@ -8,7 +8,7 @@ Some issues that may occur is that some records may be labelled as ‘undefined�
 The configuration data involved are; API configuration, database configuration, ratings configuration, data update and sync configuration. The API configuration receives the restaurant details and the ratings from Bristol Open Data. The database configuration is the storage for the ratings, and the restaurant details. The data can be filtered for a quick search. The ratings configuration is important so it displays each restaurants’ ratings clearly so that users can use it to quickly make their dining choice. The data update and sync configuration ensures that valid, new inspection data is replacing the older data, without manual updates. 
 
 ## Project Structure
-An outline of the project folder structure and the role of each file within it.
+
 
 ```
 └── 📁app
@@ -29,8 +29,8 @@ An outline of the project folder structure and the role of each file within it.
     └── planning.md
     └── requirements.md
     └── testing.md
+└── README.md
 ```
-![Insert your project folder structure here](images/folders.png)
 
 A table listing the number of jslint warnings/reports for each module.
 ![Insert your jslint warnings table here](images/jslintwarningss.png)
@@ -43,14 +43,14 @@ The architectural styles being used include a colour scheme of pastel green, ora
 ![Insert your component Diagram here](images/componentdiagram.png)
 
 ## Bristol Open Data API
-UML by Paula: Query used in the index used to fetch the name, rating and business type. The top level represents the entire JSON response.
+####UML by Paula: Query used in the index used to fetch the name, rating and business type. The top level represents the entire JSON response.
 - The fields represent the properties
 - The spatial reference defines coordinate system information
 - Features contain attributes(BUSINESS_NAME, RATING, BUSINESS_TYPE) and have a relationship with geometry <br>
 Query URL: https://maps2.bristol.gov.uk/server2/rest/services/ext/food/MapServer/0/query?where=1%3D1&outFields=BUSINESS_NAME,RATING,BUSINESS_TYPE&outSR=4326&f=json
 ![UML Class diagram 1 representing JSON query results](images/js_uml.png)
 <br>
-UML by Farihin: Query used in the reviews page used to fetch the name, rating and address. Just as the previous diagram, the top level represents the entire JSON response.
+####UML by Farihin: Query used in the reviews page used to fetch the name, rating and address. Just as the previous diagram, the top level represents the entire JSON response.
 - The fields represent the properties
 - The spatial reference defines coordinate system information
 - Features contain attributes(BUSINESS_NAME, RATING, ADDRESS) and have a relationship with geometry <br>
