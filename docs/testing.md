@@ -21,7 +21,6 @@ Create a requirements traceability matrix to validate the completeness of the pr
 | UC1         | NFR1             | ALL | Pass |
 | UC1         | NFR2             | ALL | Pass |
 | UC1         | NFR3             | manageaccount.html| Fail|
-| ----------- | -------------- | --------- | ------ |
 
 
 ![Insert your test case table here](images/testcasee1.png)
