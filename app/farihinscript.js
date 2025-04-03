@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         reviewCard.classList.add("review-card");
         reviewCard.innerHTML = `
             <div class="review-header">
-                <img src="/images/profilepicture.png" alt="Avatar" class="avatar">
+                <img src="images/profilepicture.png" alt="Avatar" class="avatar">
                 <div class="reviewer-info">
                     <h3>${name}</h3>
                     <span>Just now</span>
