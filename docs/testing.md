@@ -40,7 +40,6 @@ This shows that the restaurant owner can change some details by filling in the r
 Description: The system should have interaction metrics(customer engagement tracking like viewing reviews).<br>
 Prerequisites: Accessible API, connection to Database, Error messages <br>
 Test Data: 
- <h3 class="intro">Highest rated restaurants in Bristol...</h3>   
 
         <section class="Item1" id="restaurant1">
             <article>
@@ -100,18 +99,7 @@ Test Data:
                     <p id="restaurant-rating2" class="rating">Fetching rating...</p>
                 </section>
            
-(2)
-star.addEventListener("click", () => {
-            selectedRating = index + 1;  // Set the rating to the clicked star index + 1
-            document.getElementById("rating").value = selectedRating;  // Update the hidden input
-            resetStars();  // Reset all stars to gray
-            for (let i = 0; i < selectedRating; i++) {
-                stars[i].style.color = "gold";  // Highlight the selected stars
-            
-(3)
-// Show that the review is submitted successfully with a message.
-        document.getElementById("responseMessage").innerText = "Review submitted successfully!";
-        <br>
+
               
 This shows that the customer can browse (1), write (2), and upload their reviews, showing a response message when uploaded successfully (3). 
 
