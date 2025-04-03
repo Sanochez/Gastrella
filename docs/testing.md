@@ -99,7 +99,8 @@ Test Data:
                     <p id="restaurant-rating2" class="rating">Fetching rating...</p>
                 </section>
 <br>
-![Javascript screenshot ](images/java_ss.png)
+
+![Insert your Javascript (2) and (3) Here](images/java_ss.png)
 
               
 This shows that the customer can browse (1), write (2), and upload their reviews, showing a response message when uploaded successfully (3). 
