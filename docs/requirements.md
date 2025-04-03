@@ -49,6 +49,7 @@ Use case 2 by Farihin Khan: <br>
 - FR5: The system must have location and mapping
 - FR6: The system should have content moderation
 - FR7: The system should have marketing tools
+- FR8: The system must update database information
 
 <u>UC2 requirements:</u>
 - FR1: The system should allow customers to create an account.
