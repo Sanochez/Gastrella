@@ -58,35 +58,6 @@ Test Data:
                     </div>
         
 This shows that the user can view reviews by clicking on the restaurant's image.
-
-### Test Case ID: UC1 FR4
-Description: The system must have location and mapping
-Prerequisites: Access to user's location, access to API <br>
-Test Data:
-
-            <section class="map_frame">
-                <iframe id="mapFrame" width="500" height="400" frameborder="0"></iframe>            
-            </section>
-        
-            <button id="find_restaurants" onclick="getLocation('/map.html')">Find Restaurants Near Me</button>
-
-This shows that the user can check restaurants near them by clicking the button.
-### Test Case ID: UC1 FR7
-Description: FR7: The system must update database information
-Prerequisites: Accessible API, connection to Database, Error messages <br>
-
-        <article>
-                <a href="reviews.html?name=Aardman Animations Limited">
-                    <img src="images/restaurant1.jpg" class="restaurant_img" alt="Aardman Animations Limited">
-                </a>
-                <section>
-                    <h3 id="restaurant-name1">Aardman Animations ltd</h3><br>
-                    <p id="restaurant-type1">Fetching type...</p>
-                    <p id="restaurant-rating1" class="rating">Fetching rating...</p>
-                </section>   
-            </article> 
-
-This shows the system uses the API to fetch the data.
             
 ### Test Case ID: UC2 FR1 
 Description: The system should allow customers to create an account.<br>
@@ -170,6 +141,59 @@ Test Data:
             <input type="text" name="phone" placeholder="Your number...">
                 <br>
 This shows that the customer can change some details by filling in the required information.
+
+# Automated Tests
+### Test Case ID: UC1 FR4
+Description: The system must have location and mapping <br>
+Prerequisites: Access to user's location, access to API <br>
+Test Data:
+
+            <section class="map_frame">
+                <iframe id="mapFrame" width="500" height="400" frameborder="0"></iframe>            
+            </section>
+        
+            <button id="find_restaurants" onclick="getLocation('/map.html')">Find Restaurants Near Me</button>
+
+This shows that the user can check restaurants near them by clicking the button.
+
+### Test Case ID: UC1 FR7
+Description: FR7: The system must update database information <br>
+Prerequisites: Accessible API, connection to Database, Error messages <br>
+
+        <article>
+                <a href="reviews.html?name=Aardman Animations Limited">
+                    <img src="images/restaurant1.jpg" class="restaurant_img" alt="Aardman Animations Limited">
+                </a>
+                <section>
+                    <h3 id="restaurant-name1">Aardman Animations ltd</h3><br>
+                    <p id="restaurant-type1">Fetching type...</p>
+                    <p id="restaurant-rating1" class="rating">Fetching rating...</p>
+                </section>   
+            </article> 
+
+This shows the system uses the API to fetch the data.
+
+### Test Case ID: UC1 NFR1 
+Description: User-friendly interface: New users should be able to complete basic tasks within 4 minutes. <br>
+Prerequisites: <br>
+Test Data: 
+
+### Test Case ID: UC2 NFR1 
+Description: The chatbot should provide helpful responses to the users’ queries. <br>
+Prerequisites: User's email and phone number, user profile storage<br>
+Test Data: 
+
+### Test Case ID: UC2 NFR2 
+Description: The chat bot response time should be within 3 seconds. <br>
+Prerequisites: User's email and phone number, user profile storage<br>
+Test Data: 
+
+### Test Case ID: UC2 NFR3 
+Description: The system should process and display multiple users’ reviews when submitted successfully. <br>
+Prerequisites: User's email and phone number, user profile storage<br>
+Test Data: 
+
+<br>
 
 Test Runs
 
