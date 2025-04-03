@@ -6,4 +6,3 @@ Hello, this is Farihin's and Paula's repository.
 - [Testing](https://github.com/Sanochez/Gastrella/blob/main/docs/testing.md)
 ### Our web-app
 [Click here](https://github.com/Sanochez/Gastrella/tree/main/app)
-[Index](https://github.com/Sanochez/Gastrella/blob/main/app/index.html)
