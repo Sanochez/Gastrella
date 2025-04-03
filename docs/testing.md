@@ -13,14 +13,14 @@ Create a requirements traceability matrix to validate the completeness of the pr
 | UC1         | FR2            | manageaccount.htm|Fail(data last updated 2/7/25)|
 | UC1         | FR3            | reviews.hmtl|Pass|
 | UC1         | FR4            | map.html|Pass|
-| UC1         | FR5            | reviews.html| Fail |
-| UC1         | FR6            | home.html | Fail |
+| UC1         | FR5            | reviews.html| Fail(data last updated 2/7/25) |
+| UC1         | FR6            | home.html | Fail(data last updated 2/7/25) |
 | UC1         | FR7.1            | home.html | Pass |
 | UC1         | FR7.2            | reviews.html | Pass |
 | UC1         | FR7.3            | map.html | Pass |
 | UC1         | NFR1             | ALL | Pass |
 | UC1         | NFR2             | ALL | Pass |
-| UC1         | NFR3             | manageaccount.html| Fail|
+| UC1         | NFR3             | manageaccount.html| Fail(data last updated 2/7/25) |
 
 
 ![Insert your test case table here](images/testcasee1.png)
