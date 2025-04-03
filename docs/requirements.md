@@ -44,11 +44,11 @@ Use case 2 by Farihin Khan: <br>
 <u>UC1 requirements:</u>
 - FR1: The system must allow restaurant owner registration
 - FR2: The system must allow restaurant profile management
-- FR3: The system should allow customer interaction
-- FR4: Interaction metrics
-- FR5: Location and mapping
-- FR6: Content moderation
-- FR7: Marketing tools
+- FR3: The system must allow customer interaction
+- FR4: The system should have interaction metrics
+- FR5: The system must have location and mapping
+- FR6: The system should have content moderation
+- FR7: The system should have marketing tools
 
 <u>UC2 requirements:</u>
 - FR1: The system should allow customers to create an account.
