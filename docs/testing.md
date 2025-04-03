@@ -207,7 +207,7 @@ Prerequisites: Error handling, Efficient output validation <br>
 Test Data: 
 ![Insert your Javascript Example Here](images/jsclearreviews.png)
 
-This shows that when the quereies' format is processed as correct, the chatbot displays a response efficiently.
+This shows that when the queries' format is processed as correct, the chatbot displays a response efficiently.
 
 
 ### Test Case ID: UC2 NFR3 
