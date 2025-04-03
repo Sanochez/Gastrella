@@ -34,7 +34,7 @@ UML by Farihin: Query used in the reviews page used to fetch the name, rating an
 - The spatial reference defines coordinate system information
 - Features contain attributes(BUSINESS_NAME, RATING, ADDRESS) and have a relationship with geometry <br>
 Query URL: https://maps2.bristol.gov.uk/server2/rest/services/ext/food/MapServer/0/query?where=1%3D1&outFields=BUSINESS_NAME,ADDRESS,RATING&outSR=4326&f=json <br>
-![UML Class diagram 2 representing JSON query results](images/jsuml2.png)
+![UML Class diagram 2 representing JSON query results](images/js_uml2.png)
 
 # User guide
 This guide will help you navigate the website.
