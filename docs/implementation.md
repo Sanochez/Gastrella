@@ -13,17 +13,6 @@ An outline of the project folder structure and the role of each file within it.
 ```
 └── 📁app
     └── 📁images
-        └── facebook.png
-        └── front-img.jpg
-        └── gast-logo2.png
-        └── instagram.png
-        └── logotype.png
-        └── pen.png
-        └── profilepicture.png
-        └── restaurant1.jpg
-        └── tiktok.png
-        └── twitter.png
-        └── youtube.png
     └── chatbot.html
     └── farihinscript.js
     └── farihinstyle.css
@@ -35,45 +24,6 @@ An outline of the project folder structure and the role of each file within it.
     └── reviews.html
 └── 📁docs
     └── 📁images
-        └── chatbot_ss1.png
-        └── chatbot_ss2.png
-        └── chatbotwireframe.png
-        └── componentdiagram.png
-        └── contextdiagram.png
-        └── deployment.png
-        └── deployment.png.bak
-        └── folders.png
-        └── foodfinder_ss1.png
-        └── foodfinder_ss2.png
-        └── foodfinder.png
-        └── home_ss1.png
-        └── home_ss2.png
-        └── homepage.png
-        └── homewireframe.png
-        └── java_ss.png
-        └── js_uml.png
-        └── js_uml2.png
-        └── jsclearreviews.png
-        └── jslintwarningss.png
-        └── manageaccount_ss1.png
-        └── manageaccount_ss2.png
-        └── manageaccount_ss3.png
-        └── manageaccountpage.png
-        └── mapwireframe.png
-        └── mockup.png
-        └── reviewpage.png
-        └── reviews_ss1.png
-        └── reviews_ss2.png
-        └── reviews_ss3.png
-        └── reviews_ss4.png
-        └── robust diagram.drawio (1).png
-        └── screenshot.png
-        └── sequence.png
-        └── testcasee1.png
-        └── uc1.png
-        └── use-case.png
-        └── usecase2.png
-        └── wireframe.png
     └── design.md
     └── implementation.md
     └── planning.md
