@@ -63,7 +63,7 @@ article {
 /* Cover */
 .front {
     grid-area: front_img;
-    background-image: url(/images/front-img.jpg);
+    background-image: url(images/front-img.jpg);
     border: solid 5px;
     border-color: #D4AA3A;
     width: 100%;
