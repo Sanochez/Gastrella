@@ -175,23 +175,65 @@ This shows the system uses the API to fetch the data.
 
 ### Test Case ID: UC1 NFR1 
 Description: User-friendly interface: New users should be able to complete basic tasks within 4 minutes. <br>
-Prerequisites: <br>
+Prerequisites: Error handling, Efficient input validation, Minimal UI load time <br>
 Test Data: 
+
+                <div class="rating">
+                    <span id="star1" class="star">&#9733;</span>
+                    <span id="star2" class="star">&#9733;</span>
+                    <span id="star3" class="star">&#9733;</span>
+                    <span id="star4" class="star">&#9733;</span>
+                    <span id="star5" class="star">&#9733;</span>
+                </div>
+                <input type="hidden" id="rating" value="0"> 
+                <button id="review-button" type="submit">Submit Review</button>
+This shows that the user can perform a basic task, such as submitting a review, efficiently, as the format is easy to understand.
 
 ### Test Case ID: UC2 NFR1 
 Description: The chatbot should provide helpful responses to the users’ queries. <br>
-Prerequisites: User's email and phone number, user profile storage<br>
+Prerequisites: Concise responses, Regular updates, Context awareness <br>
 Test Data: 
+
+    let responses = {
+        "hello": "Hi there!",
+        "hi": "Hi there!",
+        "how are you": "I'm just a simple bot, but I'm good!",
+        "can you help me": "Sure, What can I help you with?",
+This shows that the chatbot responds to commonly asked questions in an understanding tone.
 
 ### Test Case ID: UC2 NFR2 
 Description: The chat bot response time should be within 3 seconds. <br>
-Prerequisites: User's email and phone number, user profile storage<br>
+Prerequisites: Error handling, Efficient output validation <br>
 Test Data: 
+![Insert your Javascript Example Here](images/jsclearreviews.png)
+
+This shows that when the quereies' format is processed as correct, the chatbot displays a response efficiently.
+
 
 ### Test Case ID: UC2 NFR3 
 Description: The system should process and display multiple users’ reviews when submitted successfully. <br>
-Prerequisites: User's email and phone number, user profile storage<br>
-Test Data: 
+Prerequisites: Valid input data, Efficient data processing <br>
+Test Data:  
+
+            <div class="review-header">
+                <img src="/docs/images/profilepicture.png" alt="Avatar" class="avatar">
+                <div class="reviewer-info">
+                    <h3>${name}</h3>
+                    <span>Just now</span>
+                </div>
+            </div>
+            <div class="rating">
+                <span class="stars">${"★".repeat(rating)}${"☆".repeat(5 - rating)}</span>
+            </div>
+            <div class="review-text">
+                "${reviewText}"
+            </div>
+
+        document.querySelector(".reviews-grid").appendChild(reviewCard);
+
+        // Show that the review is submitted successfully with a message.
+        document.getElementById("responseMessage").innerText = "Review submitted successfully!";
+This shows that the system displays the review instantly, and in the same format when submitted correctly. It also provides feedback by displaying a message which shows it's submitted successfully.
 
 <br>
 
