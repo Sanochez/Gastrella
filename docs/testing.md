@@ -8,7 +8,7 @@ TODO: Describe any manual and automated (unit) tests. Uniquely identify each tes
 Description: The system must allow restaurant owner registration (basic profile creation). <br>
 Prerequisites: User's email and phone number, user profile storage<br>
 Test Data: 
-<div class="form">
+
         <form id ="account_form">
         <div class="input-group">
             <label>* Account Owner</label>
@@ -17,7 +17,6 @@ Test Data:
         <div class="input-group">
             <label>Phone Number</label>
             <input type="text" name="phone" placeholder="Your number...">
-        </div>
                 <br>
 This shows that the restaurant owner can create an account by filling in the required information.
 
@@ -25,7 +24,7 @@ This shows that the restaurant owner can create an account by filling in the req
 Description: The system must allow restaurant profile management(changing details or removing account).<br>
 Prerequisites: user profile storage<br>
 Test Data: 
-<div class="form">
+
         <form id ="account_form">
         <div class="input-group">
             <label>* Account Owner</label>
@@ -34,7 +33,6 @@ Test Data:
         <div class="input-group">
             <label>Phone Number</label>
             <input type="text" name="phone" placeholder="Your number...">
-        </div>
                 <br>
 This shows that the restaurant owner can change some details by filling in the required information.
 
@@ -63,7 +61,7 @@ This shows that the user can view reviews by clicking on the restaurant's image,
 Description: The system should allow customers to create an account.<br>
 Prerequisites: User's email and phone number, user profile storage <br>
 Test Data: 
-<div class="form">
+
         <form id ="account_form">
         <div class="input-group">
             <label>* Account Owner</label>
@@ -72,7 +70,6 @@ Test Data:
         <div class="input-group">
             <label>Phone Number</label>
             <input type="text" name="phone" placeholder="Your number...">
-        </div>
                 <br>
 This shows that the customer can create an account by filling in the required information.
 
@@ -80,16 +77,13 @@ This shows that the customer can create an account by filling in the required in
 Description: The system should allow customers to browse through potential food options.<br>
 Prerequisites: Accessible API <br>
 Test Data: 
-<section class="Item2" id="restaurant2">
-            <article>
+        
                 <a href="/reviews.html?name=808 CAFE BAR LTD"><img src="images/restaurant1.jpg" class="restaurant_img" alt="808 CAFE BAR LTD"></a>
                 <section>
                     <h3 id="restaurant-name2">808 CAFE BAR LTD</h3><br>
                     <p id="restaurant-type2">Fetching type...</p>
                     <p id="restaurant-rating2" class="rating">Fetching rating...</p>
-                </section>
-            </article>
-</section>
+                    </section>
 <br>
 This shows that the customer can browse through food options.
 
@@ -98,16 +92,14 @@ Description: The system should allow users to browse, write and upload reviews f
 Prerequisites: Accessible API, connection to Database, Error messages <br>
 Test Data: 
 (1)
-<section class="Item2" id="restaurant2">
-            <article>
+
                 <a href="/reviews.html?name=808 CAFE BAR LTD"><img src="images/restaurant1.jpg" class="restaurant_img" alt="808 CAFE BAR LTD"></a>
                 <section>
                     <h3 id="restaurant-name2">808 CAFE BAR LTD</h3><br>
                     <p id="restaurant-type2">Fetching type...</p>
                     <p id="restaurant-rating2" class="rating">Fetching rating...</p>
                 </section>
-            </article>
-        </section>
+           
 (2)
 star.addEventListener("click", () => {
             selectedRating = index + 1;  // Set the rating to the clicked star index + 1
@@ -115,9 +107,7 @@ star.addEventListener("click", () => {
             resetStars();  // Reset all stars to gray
             for (let i = 0; i < selectedRating; i++) {
                 stars[i].style.color = "gold";  // Highlight the selected stars
-            }
-        });
-    });
+            
 (3)
 // Show that the review is submitted successfully with a message.
         document.getElementById("responseMessage").innerText = "Review submitted successfully!";
@@ -147,7 +137,7 @@ This shows that users can ask their questions, and get a generated response from
 Description: The system should allow users to manage their account, changing any personal information if necessary.<br>
 Prerequisites: user profile storage <br>
 Test Data: 
-<div class="form">
+
         <form id ="account_form">
         <div class="input-group">
             <label>* Account Owner</label>
@@ -156,7 +146,6 @@ Test Data:
         <div class="input-group">
             <label>Phone Number</label>
             <input type="text" name="phone" placeholder="Your number...">
-        </div>
                 <br>
 This shows that the customer can change some details by filling in the required information.
 
