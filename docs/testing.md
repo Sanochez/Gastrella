@@ -6,7 +6,7 @@ TODO: Describe any manual and automated (unit) tests. Uniquely identify each tes
 ## Manual Tests
 # Test Case ID: UC1 FR1 
 Description: The system must allow restaurant owner registration (basic profile creation). <br>
-Prerequisites: User's email and phone number, user profile storage
+Prerequisites: User's email and phone number, user profile storage<br>
 Test Data: 
 <div class="form">
         <form id ="account_form">
@@ -18,11 +18,12 @@ Test Data:
             <label>Phone Number</label>
             <input type="text" name="phone" placeholder="Your number...">
         </div>
+                <br>
 This shows that the restaurant owner can create an account by filling in the required information.
 
 # Test Case ID: UC1 FR2
 Description: The system must allow restaurant profile management(changing details or removing account).<br>
-Prerequisites: user profile storage
+Prerequisites: user profile storage<br>
 Test Data: 
 <div class="form">
         <form id ="account_form">
@@ -34,11 +35,12 @@ Test Data:
             <label>Phone Number</label>
             <input type="text" name="phone" placeholder="Your number...">
         </div>
+                <br>
 This shows that the restaurant owner can change some details by filling in the required information.
 
 # Test Case ID: UC1 FR3 
 Description: The system should have interaction metrics(customer engagement tracking like viewing reviews).<br>
-Prerequisites: Accessible API, connection to Database, Error messages
+Prerequisites: Accessible API, connection to Database, Error messages <br>
 Test Data: 
  <h3 class="intro">Highest rated restaurants in Bristol...</h3>   
 
@@ -54,11 +56,12 @@ Test Data:
                     </section>   
             </article> 
         </section>
+        <br>
 This shows that the user can view reviews by clicking on the restaurant's image, which uses the API to fetch the data.
 
 # Test Case ID: UC2 FR1 
 Description: The system should allow customers to create an account.<br>
-Prerequisites: User's email and phone number, user profile storage
+Prerequisites: User's email and phone number, user profile storage <br>
 Test Data: 
 <div class="form">
         <form id ="account_form">
@@ -70,16 +73,29 @@ Test Data:
             <label>Phone Number</label>
             <input type="text" name="phone" placeholder="Your number...">
         </div>
+                <br>
 This shows that the customer can create an account by filling in the required information.
 
 # Test Case ID: UC2 FR2
 Description: The system should allow customers to browse through potential food options.<br>
-Prerequisites: Accessible API
+Prerequisites: Accessible API <br>
 Test Data: 
+<section class="Item2" id="restaurant2">
+            <article>
+                <a href="/reviews.html?name=808 CAFE BAR LTD"><img src="images/restaurant1.jpg" class="restaurant_img" alt="808 CAFE BAR LTD"></a>
+                <section>
+                    <h3 id="restaurant-name2">808 CAFE BAR LTD</h3><br>
+                    <p id="restaurant-type2">Fetching type...</p>
+                    <p id="restaurant-rating2" class="rating">Fetching rating...</p>
+                </section>
+            </article>
+</section>
+<br>
+This shows that the customer can browse through food options.
 
 # Test Case ID: UC2 FR3
 Description: The system should allow users to browse, write and upload reviews for restaurants.<br>
-Prerequisites: Accessible API, connection to Database, Error messages
+Prerequisites: Accessible API, connection to Database, Error messages <br>
 Test Data: 
 (1)
 <section class="Item2" id="restaurant2">
@@ -105,12 +121,13 @@ star.addEventListener("click", () => {
 (3)
 // Show that the review is submitted successfully with a message.
         document.getElementById("responseMessage").innerText = "Review submitted successfully!";
+        <br>
               
 This shows that the customer can browse (1), write (2), and upload their reviews, showing a response message when uploaded successfully (3). 
 
 # Test Case ID: UC2 FR4 
 Description: The system should allow users to ask health-related queries to a chatbot.<br>
-Prerequisites: correct input formatting, response display system, Error messages 
+Prerequisites: correct input formatting, response display system, Error messages <br>
 Test Data: 
 <!-- Section where all the messages are goint to be in -->
         <section id="message">
@@ -123,11 +140,12 @@ Test Data:
                 <button onclick="sendMessage()">send</button>
             </div>
         </section>
+        <br>
 This shows that users can ask their questions, and get a generated response from the chatbot.
 
 # Test Case ID: UC2 FR5 
 Description: The system should allow users to manage their account, changing any personal information if necessary.<br>
-Prerequisites: user profile storage
+Prerequisites: user profile storage <br>
 Test Data: 
 <div class="form">
         <form id ="account_form">
@@ -139,6 +157,7 @@ Test Data:
             <label>Phone Number</label>
             <input type="text" name="phone" placeholder="Your number...">
         </div>
+                <br>
 This shows that the customer can change some details by filling in the required information.
 
 Test Runs
