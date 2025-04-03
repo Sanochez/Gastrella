@@ -1,7 +1,7 @@
 # Testing
 
 ## Test Plan
-TODO: Describe any manual and automated (unit) tests. Uniquely identify each test case. Include prerequisites and test data.
+Describe any manual and automated (unit) tests. Uniquely identify each test case. Include prerequisites and test data.
 
 # Manual Tests
 ### Test Case ID: UC1 FR1 
