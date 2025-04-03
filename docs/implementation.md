@@ -8,6 +8,24 @@ Some issues that may occur is that some records may be labelled as ‘undefined�
 The configuration data involved are; API configuration, database configuration, ratings configuration, data update and sync configuration. The API configuration receives the restaurant details and the ratings from Bristol Open Data. The database configuration is the storage for the ratings, and the restaurant details. The data can be filtered for a quick search. The ratings configuration is important so it displays each restaurants’ ratings clearly so that users can use it to quickly make their dining choice. The data update and sync configuration ensures that valid, new inspection data is replacing the older data, without manual updates. 
 
 ## Project Structure
+Overview of the project's folder structure.
+<b>Docs:</b> Contains how each Software Development Life-Cycle phase contributed to our final web-app. The said folder is composed of an image folder with the images only for the documentation and five markdown files named as the SDLC phases.
+-	Planning.md: Contains the project plan and feasibility reports.
+-	Requirements.md: Contains the use cases and requirements.
+-	Design.md: Contains the wireframes.
+-	Implementation.md: Explains the back-end and front-end coding.
+-	Testing.md: Includes the test reports
+
+<b>App:</b> This folder contains all the HTML files included in the web-app, in conjunction with the style and the script files, and another images folder, but this one only includes the images in our web-app. We decided to keep both html, css and javaScript files in the same folder because when they are in separate folders, problems with linking them together are more common.
+-	Index.html: is the home page linking to every page and showing the highest rated restaurants.
+-	Chatbot.html: is the page with the chatbot.
+-	Reviews.html: is the page with the restaurant content and it’s reviews.
+-	Map.html: is the food finder page with a map indicating the address of the restaurant.
+-	Manageaccount.html: is the page where the user manages their account details. 
+-	Paulastyle.css: Contains the style for the home, chatbot and map pages.
+-	Paulasacript.js: Contains the script for fetching the API, the map frame and the chatbot.
+-	Farihinstyle.css: Contains the style for the reviews and manage account pages.
+-	Farihinscript.js: Contains the script for writing and posting the reviews, and for submitting the account details.
 
 
 ```
