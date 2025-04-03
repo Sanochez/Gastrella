@@ -5,4 +5,4 @@ Hello, this is Farihin's and Paula's repository.
 - [Implementation](https://github.com/Sanochez/Gastrella/blob/main/docs/implementation.md)
 - [Testing](https://github.com/Sanochez/Gastrella/blob/main/docs/testing.md)
 ### Our web-app
-[home page](https://github.com/Sanochez/Gastrella/blob/main/app/index.html)
+[Click here](https://github.com/Sanochez/Gastrella/tree/main/app)
