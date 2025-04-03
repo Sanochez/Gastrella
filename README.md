@@ -4,3 +4,4 @@ Hello, this is Farihin's and Paula's repository.
 - [Design](https://github.com/Sanochez/Gastrella/blob/main/docs/design.md)
 - [Implementation](https://github.com/Sanochez/Gastrella/blob/main/docs/implementation.md)
 - [Deployment](https://github.com/Sanochez/Gastrella/blob/main/docs/deployment.md)
+- [Testing](https://github.com/Sanochez/Gastrella/blob/main/docs/testing.md)
