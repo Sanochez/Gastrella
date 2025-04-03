@@ -18,7 +18,7 @@
 | **Description** | This use case explains the features involved in managing a restaurant account |
 | **Actors** | Business owner, app support team |
 | **Assumptions** | Pre-condition: Owning a restaurant, having an email <br> Post-condition: Access to account, modification of account</td></tr>
-| **Steps** | 1. The business owner creates an account for their restaurant. <br> 2. The owner adds a description with cuisine type, contact information and hours.<br> 3. The owner adds the menu.<br> 4. The app support team uploads the food hygine ratins and the locates establishment in the map from the database. <br> 5. Both the owner and the app support team can respond or monitor customer reviews.<br> 6. Both the owner and the app support team have access to insights data.<br> 7. Both the owner and the app support team can remove the account. <br> 8. The owner can pay for advertisment. |
+| **Steps** | 1. The business owner creates an account for their restaurant. <br> 2. The owner adds a description with cuisine type, contact information and hours.<br> 3. The owner adds the menu.<br> 4. The app support team uploads the food hygine ratings and the locates establishment in the map from the database. <br> 5. Both the owner and the app support team can respond or monitor customer reviews.<br> 6. Both the owner and the app support team have access to insights data.<br> 7. Both the owner and the app support team can remove the account. <br> 8. The owner can pay for advertisment. |
 | **Non-functional** | User-friendly interface, data backup, error handling, data protection |
 
 
@@ -42,14 +42,13 @@ Use case 2 by Farihin Khan: <br>
 ## Software Requirements Specification
 ### Functional requirements    
 <u>UC1 requirements:</u>
-- FR1: The system must allow restaurant owner registration
-- FR2: The system must allow restaurant profile management
-- FR3: The system must allow customer interaction
-- FR4: The system should have interaction metrics
-- FR5: The system must have location and mapping
-- FR6: The system should have content moderation
-- FR7: The system should have marketing tools
-- FR8: The system must update database information
+- FR1: The system must allow restaurant owner registration(basic profile cration)
+- FR2: The system must allow restaurant profile management(changing details or removing account)
+- FR3: The system should have interaction metrics(customer engagement tracking like viewing reviews)
+- FR4: The system must have location and mapping
+- FR5: The system should have content moderation
+- FR6: The system should have marketing tools
+- FR7: The system must update database information
 
 <u>UC2 requirements:</u>
 - FR1: The system should allow customers to create an account.
