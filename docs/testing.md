@@ -38,11 +38,44 @@ This shows that the restaurant owner can change some details by filling in the r
 
 ### Test Case ID: UC1 FR3 
 Description: The system should have interaction metrics(customer engagement tracking like viewing reviews).<br>
-Prerequisites: Accessible API, connection to Database, Error messages <br>
+Prerequisites: <br>
 Test Data: 
 
-        <section class="Item1" id="restaurant1">
-            <article>
+        <div class="review-card">
+                        <div class="review-header">
+                            <img src="/images/profilepicture.png" alt="Avatar" class="avatar">
+                            <div class="reviewer-info">
+                                <h3>Jake Sim</h3>
+                                <span>2 days ago</span>
+                            </div>
+                        </div>
+                        <div class="rating">
+                            <span class="stars">★★☆☆☆</span>
+                        </div>
+                        <div class="review-text">
+                            "The wrap was very fresh but dry. I was a little disappointed to be honest."
+                        </div>
+                    </div>
+        
+This shows that the user can view reviews by clicking on the restaurant's image.
+
+### Test Case ID: UC1 FR4
+Description: The system must have location and mapping
+Prerequisites: Access to user's location, access to API <br>
+Test Data:
+
+            <section class="map_frame">
+                <iframe id="mapFrame" width="500" height="400" frameborder="0"></iframe>            
+            </section>
+        
+            <button id="find_restaurants" onclick="getLocation('/map.html')">Find Restaurants Near Me</button>
+
+This shows that the user can check restaurants near them by clicking the button.
+### Test Case ID: UC1 FR7
+Description: FR7: The system must update database information
+Prerequisites: Accessible API, connection to Database, Error messages <br>
+
+        <article>
                 <a href="reviews.html?name=Aardman Animations Limited">
                     <img src="images/restaurant1.jpg" class="restaurant_img" alt="Aardman Animations Limited">
                 </a>
@@ -50,12 +83,11 @@ Test Data:
                     <h3 id="restaurant-name1">Aardman Animations ltd</h3><br>
                     <p id="restaurant-type1">Fetching type...</p>
                     <p id="restaurant-rating1" class="rating">Fetching rating...</p>
-                    </section>   
+                </section>   
             </article> 
-        </section>
-        <br>
-This shows that the user can view reviews by clicking on the restaurant's image, which uses the API to fetch the data.
 
+This shows the system uses the API to fetch the data.
+            
 ### Test Case ID: UC2 FR1 
 Description: The system should allow customers to create an account.<br>
 Prerequisites: User's email and phone number, user profile storage <br>
