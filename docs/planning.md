@@ -38,7 +38,7 @@ What makes us different from them is that we have an AI chat-bot integrated that
 - Providing official food hygiene ratings, maintaining records and analytics on the server.
 - Integrating map location and restaurant location display.
 <br>
-Outside of the scope:
+Outside of the scope:<br>
 - Multifactor authentification
 - Marketing tools
 - Changing restaurant database information
