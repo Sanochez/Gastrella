@@ -50,6 +50,7 @@ Overview of the project's folder structure.
 └── README.md
 ```
 
+### jslin warnings
 A table listing the number of jslint warnings/reports for each module.
 ![Insert your jslint warnings table here](images/jslintwarningss.png)
 
