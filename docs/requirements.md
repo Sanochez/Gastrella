@@ -42,7 +42,7 @@ Use case 2 by Farihin Khan: <br>
 ## Software Requirements Specification
 ### Functional requirements    
 <u>UC1 requirements:</u>
-- FR1: The system must allow restaurant owner registration(basic profile cration)
+- FR1: The system must allow restaurant owner registration(basic profile creation)
 - FR2: The system must allow restaurant profile management(changing details or removing account)
 - FR3: The system should have interaction metrics(customer engagement tracking like viewing reviews)
 - FR4: The system must have location and mapping
