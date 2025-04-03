@@ -1,0 +1,221 @@
+/* General styling */
+body {
+    font-family: "Carter One", system-ui;
+    background-color: rgb(104, 169, 151);
+    color: #333;
+    line-height: 1.6;
+}
+/* Title styling */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    grid-area: hd;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    color: #fdfdfd;
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header h4 {
+    font-family: "Carter One", system-ui;
+    font-size: 1.2rem;
+    margin-top: -10px;
+}
+
+/* --------- REVIEW page styling ------------ */
+/* RESTAURANT INFORMATION SECTION */
+/* Title for restaurant */
+.rest-name h2 {
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-family: "Carter One", system-ui;
+}
+
+.rest-name {
+    grid-area: nm;
+}
+
+/* Grid with reviews */
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-area: rv;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* OUTER GRID */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    display: grid;
+    grid-template-areas: 
+    "hd hd"
+    "nm rv"
+    "lt dh"
+    ;
+}
+
+/* REVIEWS SECTION STYLING */
+/* Single review */
+.review-card {
+    background: rgb(68, 133, 115);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+/* When you hover over the review */
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+/* What is at the top in the review */
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* Profile picture of reviewer */
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+/* Name of reviewer*/
+.reviewer-info {
+    font-size: 0.9rem;
+}
+
+.reviewer-info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: black;
+    font-family: "Carter One", system-ui;
+}
+/* Displaying the day the review was posted */
+.reviewer-info span {
+    font-size: 0.8rem;
+    color: #fdfdfd;
+    font-family: "Carter One", system-ui;
+}
+
+/* Rating the user gave */
+.rating {
+    margin: 10px 0;
+}
+
+.stars {
+    color: #f4b400; 
+    font-size: 1.2rem;
+}
+
+/* Comment the user posted */
+.review-text {
+    font-size: 0.95rem;
+    color: black;
+    margin-top: 10px;
+    font-family: "Carter One", system-ui;
+}
+/*
+.container2 {
+    display: flex;
+    align-items:start;
+    gap: 30px; 
+    padding: 10px;
+} */
+
+/* SECTION TO WRITE YOUR OWN REVIEW */
+.your-reviews {
+    background: rgb(54, 113, 97);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    grid-area:lt ;
+}
+
+.your-reviews:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);    
+}
+
+.your-reviews h4 {
+    font-family:"Carter One", system-ui;
+    color: white;
+}
+/* FOOTER SECTION */
+/* Images in the footer section */
+.image-container {
+    text-align: center; 
+    margin-top: 85px;
+}
+
+
+.image-container img { 
+    margin: 5px; 
+}
+
+/* ------------------------ Manage account page styling ---------------------- */
+/* Form of to introduce account details*/
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding-top: 60px;
+}
+/* section where the user will write */
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-weight: bold;
+    font-family: "Carter One", system-ui;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background: white
+    font-size 16px;
+    transition-property: 0.3s;
+}
+
+.input-group input:focus {
+    border: 2px solid teal;
+    outline: none;
+
+}
+/* button to send the form */
+.buttons {
+    margin-top: 100px;
+}
+
+.save {
+    font-family: "Carter One", system-ui;
+    font-size: larger;
+    background-color:rgb(38, 103, 85) ;
+    color: #fdfdfd;
+}
+
+.cancel {
+    font-family: "Carter One", system-ui;
+    font-size: larger;
+    background-color: #5f5e5e;
+    color: #fdfdfd;
+}
