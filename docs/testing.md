@@ -5,7 +5,7 @@ TODO: Describe any manual and automated (unit) tests. Uniquely identify each tes
 
 ## Manual Tests
 # Test Case ID: UC1 FR1 
-Description: The system must allow restaurant owner registration (basic profile creation).
+Description: The system must allow restaurant owner registration (basic profile creation). <br>
 Prerequisites: User's email and phone number, user profile storage
 Test Data: 
 <div class="form">
@@ -21,7 +21,7 @@ Test Data:
 This shows that the restaurant owner can create an account by filling in the required information.
 
 # Test Case ID: UC1 FR2
-Description: The system must allow restaurant profile management(changing details or removing account).
+Description: The system must allow restaurant profile management(changing details or removing account).<br>
 Prerequisites: user profile storage
 Test Data: 
 <div class="form">
@@ -37,7 +37,7 @@ Test Data:
 This shows that the restaurant owner can change some details by filling in the required information.
 
 # Test Case ID: UC1 FR3 
-Description: The system should have interaction metrics(customer engagement tracking like viewing reviews).
+Description: The system should have interaction metrics(customer engagement tracking like viewing reviews).<br>
 Prerequisites: Accessible API, connection to Database, Error messages
 Test Data: 
  <h3 class="intro">Highest rated restaurants in Bristol...</h3>   
@@ -57,7 +57,7 @@ Test Data:
 This shows that the user can view reviews by clicking on the restaurant's image, which uses the API to fetch the data.
 
 # Test Case ID: UC2 FR1 
-Description: The system should allow customers to create an account.
+Description: The system should allow customers to create an account.<br>
 Prerequisites: User's email and phone number, user profile storage
 Test Data: 
 <div class="form">
@@ -73,12 +73,12 @@ Test Data:
 This shows that the customer can create an account by filling in the required information.
 
 # Test Case ID: UC2 FR2
-Description: The system should allow customers to browse through potential food options.
+Description: The system should allow customers to browse through potential food options.<br>
 Prerequisites: Accessible API
 Test Data: 
 
 # Test Case ID: UC2 FR3
-Description: The system should allow users to browse, write and upload reviews for restaurants.
+Description: The system should allow users to browse, write and upload reviews for restaurants.<br>
 Prerequisites: Accessible API, connection to Database, Error messages
 Test Data: 
 (1)
@@ -109,7 +109,7 @@ star.addEventListener("click", () => {
 This shows that the customer can browse (1), write (2), and upload their reviews, showing a response message when uploaded successfully (3). 
 
 # Test Case ID: UC2 FR4 
-Description: The system should allow users to ask health-related queries to a chatbot.
+Description: The system should allow users to ask health-related queries to a chatbot.<br>
 Prerequisites: correct input formatting, response display system, Error messages 
 Test Data: 
 <!-- Section where all the messages are goint to be in -->
@@ -126,7 +126,7 @@ Test Data:
 This shows that users can ask their questions, and get a generated response from the chatbot.
 
 # Test Case ID: UC2 FR5 
-Description: The system should allow users to manage their account, changing any personal information if necessary.
+Description: The system should allow users to manage their account, changing any personal information if necessary.<br>
 Prerequisites: user profile storage
 Test Data: 
 <div class="form">
